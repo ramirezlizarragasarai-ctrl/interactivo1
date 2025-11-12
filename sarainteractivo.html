@@ -403,6 +403,16 @@ if(pregunta6 = prompt("Flor que significa amor perfecto")){
         } else {
             alert("Incorrecto. La respuesta correcta es: Rosa Roja.");
         }
+        if(pregunta11 = prompt("Flor con inicial S")){
+    pregunta11 = pregunta11.trim();
+}
+if (pregunta11.toLowerCase() === "susanita") {
+    alert("¡Correcto! Es la Susanita");
+    puntaje += 1;
+} else {
+    alert("Incorrecto. La respuesta correcta es: Susanita.");
+}
+
         if(puntaje >= 1) {
             alert("¡Felicidades! Has respondido correctamente todas las preguntas.");
             document.getElementById("calif").textContent = puntaje + "/10";
@@ -414,4 +424,5 @@ if(pregunta6 = prompt("Flor que significa amor perfecto")){
     };
     </script>
         </body>
+
     </html>
